@@ -1,0 +1,17 @@
+.mainheader {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.mainfield {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(https://images.chesscomfiles.com/uploads/v1/article/24256.f446db09.5000x5000o.7b1ed5c2a93f.jpeg);
+  filter: brightness(70%);
+}
+
+.bottomheader {
+  text-align: center;
+  font-size: 25px;
+  margin-top: 10%;
+}
