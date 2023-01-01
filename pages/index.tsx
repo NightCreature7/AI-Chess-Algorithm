@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Box, Grid, Stack } from "@chakra-ui/layout";
 import mainStyle from "../styles/main.module.css";
 import Head from "next/head";
+import Logo from "../src/components/Logo";
 import {
   Button,
   FormControl,
@@ -18,7 +19,9 @@ const LandingPage = () => {
         <link rel="icon" href="/chess.ico" />
       </Head>
       <div className={mainStyle.mainfield}>
-        <h1 className={mainStyle.mainheader}>Play Chess With AI</h1>
+        <h1 className={mainStyle.mainheader}>
+          Play Chess With AI - Chess Chronicles
+        </h1>
         <Grid
           gap={2}
           h="100%"
@@ -30,6 +33,7 @@ const LandingPage = () => {
           maxW="800px"
           m="auto"
         >
+          <Logo />
           <Box p={5}>
             <form method="get" action="/chess">
               <Stack spacing="15px">
