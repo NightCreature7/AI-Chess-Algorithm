@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import { Box } from "@chakra-ui/layout";
 import React, { useCallback, useMemo, useState } from "react";
 import styled from "styled-components";
